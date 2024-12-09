@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Estilo generales*/
+
+body {
+  margin: 40px;
+}
+hr {
+  margin: 40px;
+}
+.logo {
+  max-width: 70px;
+}
+/*Estilo del menu*/
+.menu-nav {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+.logo {
+  max-width: 50px;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0 20px;
+  gap: 10px;
+}
+.btn-menu {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(175, 23, 23);
+  padding: 5px;
+}
+.btn-menu:hover {
+  color: #22e6d3;
+}
+.action {
+  border: 1px solid;
+  color: aliceblue;
+  border: 1px solid;
+}
+.activo {
+  background-color: rgb(60, 0, 78);
+  border: 1px solid;
+  color: white;
+  border-radius: 5px;
+}
+
+/*estilo del contenido*/
+.contenido {
+  margin: 20px;
+}
+.publicidad img {
+  display: flex;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 80%;
+}
+.bandeja {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+/*Estilo del pie*/
+
+.pie {
+  background-color: #17e68b;
+  color: black;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+}
+.tarjeta {
+  border: 2px solid gray;
+  border-radius: 8px;
+  padding: 20px;
+}
+.tarjeta h3 {
+  color: blueviolet;
+}
+.tarjeta a {
+  color: chocolate;
+  text-decoration: none;
+  margin-top: 10px;
+}
